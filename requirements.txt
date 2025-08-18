@@ -1,6 +1,0 @@
-playwright>=1.40.0
-playwright-stealth>=1.0.6
-fake-useragent>=1.4.0
-pandas>=1.5.0
-asyncio-throttle>=1.0.2
-aiofiles>=23.2.1
