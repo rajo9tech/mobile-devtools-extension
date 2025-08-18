@@ -1,0 +1,30 @@
+# AJIO Web Scraper Dependencies
+# Install these with: pip install -r dependencies.txt
+
+# Core web automation
+playwright>=1.40.0
+
+# Async throttling for rate limiting
+asyncio-throttle>=1.0.2
+
+# Standard library dependencies (should already be available)
+# asyncio (Python 3.7+)
+# json (built-in)
+# csv (built-in)
+# pathlib (Python 3.4+)
+# argparse (built-in)
+# logging (built-in)
+# urllib.parse (built-in)
+# typing (Python 3.5+)
+
+# Optional but recommended for enhanced data processing:
+# pandas>=1.5.0          # Uncomment if you need DataFrame operations
+# openpyxl>=3.0.0        # Uncomment if you need Excel export
+# beautifulsoup4>=4.10.0 # Uncomment if you need additional HTML parsing
+
+# Development dependencies (uncomment for development):
+# pytest>=7.0.0          # For testing
+# pytest-asyncio>=0.21.0 # For async testing
+# black>=23.0.0          # Code formatting
+# flake8>=6.0.0          # Code linting
+# mypy>=1.0.0            # Type checking
